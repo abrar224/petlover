@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <title>Log In Page</title>
+       <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <img src="logo.PNG" class="m-auto p-1 h-48">
+        <div class="container mx-auto p-2">
+           <div class="max-w-sm mx-auto bg-gray-400 px-5 py-10 rounded shadow-xl"> 
+           <form action="verify.php" method="POST">
+           <label class="text-lg leading-10"> Username </label><br>
+           <input type="username" class="block w-full p-2 border rounded border-gray-600" name="uname" placeholder="Enter Username" autocomplete="off"><br>
+           <label class="text-lg leading-10"> Password </label><br>
+           <input type="password" class="block w-full p-2 border rounded border-gray-600" name="upass" placeholder="Enter Password"><br><br>
+           <input type="submit" value="Login" class="p-2 w-full bg-blue-600 text-white text-lg border rounded border-gray-600 hover:bg-blue-700"><br><br>
+           <a class="hover:text-blue-600 underline" href="signup.php">Don't have any account?</a><br>
+           </form>
+           </div>
+        </div>
+     </body>
+</html>
