@@ -81,14 +81,14 @@
                             }
                             catch(PDOException $ex){
                                 ?>
-                                       <tr> <th colspan="5">Data read error ... ...</th></tr>    
+                                       <tr> <th colspan="5">Error .......</th></tr>    
                                 <?php
                             }
                             
                         }
                         catch(PDOException $ex){
                             ?>
-                                    <tr><th colspan="5">Data read error ... ...</th></tr>
+                                    <tr><th colspan="5">Error .......</th></tr>
                             <?php
                         }
                     ?> 
